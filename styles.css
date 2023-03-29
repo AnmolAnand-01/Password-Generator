@@ -11,10 +11,6 @@
     --rd-brown: rgb(121, 28, 0);
     --lt-brown: rgb(194, 45, 0);
     --dk-violet: hsl(268, 75%, 9%);
-    --lt-violet: hsl(268, 47%, 21%);
-    --lt-violet2: hsl(281, 89%, 26%);
-    --vb-violet: hsl(285, 91%, 52%);
-    --vb-violet2: hsl(290, 70%, 36%);
   
     --vb-yellow: hsl(52, 100%, 62%);
   
@@ -27,7 +23,8 @@
 }
 
 .wrapper {
-    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
     min-height: 100vh;
     /* display: flex;
     flex-direction: row;
