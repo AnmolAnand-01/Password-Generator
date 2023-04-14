@@ -241,7 +241,7 @@ generateBtn.addEventListener('click', () => {
     passwordDisplay[0].value = password;
     // console.log("UI adddition done");
     //calculate strength
-    // calcStrength();
+    calcStrength();
     // console.log(history);
     // console.log(password);
     handleHistory();
